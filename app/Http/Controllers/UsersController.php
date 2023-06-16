@@ -8,7 +8,7 @@ class UsersController extends Controller
 
     public function getGithubUsers()
     {
-        $token = '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'; // Replace with your GitHub token
+        $token = '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'; // Replace with your GitHub token
 
         $headers = [
             'Authorization' => 'Bearer ' . $token,

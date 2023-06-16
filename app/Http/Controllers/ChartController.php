@@ -15,7 +15,7 @@ class ChartController extends Controller
 
     public function getNumberOfFollowers($username)
     {
-        $token = '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';
+        $token = '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';
 
         $client = new Client();
         $response = $client->post('https://api.github.com/graphql', [
